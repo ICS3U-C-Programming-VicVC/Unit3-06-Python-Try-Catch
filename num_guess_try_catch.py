@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Created By: Victor Victor-Calixte
 # Date: 09/16/26
-# This program runs basic math.
+# This program asks the user to guess a number between 0-9. It also supports input failures.
 
 import random
 
@@ -25,7 +25,6 @@ def main():
             print(
                 "Your guess was incorrect! Correct number was: {}".format(generated_num)
             )
-
     # If the try statement fails, it was likely due to the input from the user being invalid
     except:
         # Tell the user about the mistake
