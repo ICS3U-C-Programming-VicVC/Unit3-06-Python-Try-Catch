@@ -5,6 +5,7 @@
 
 import random
 
+
 def main():
 
     # Getting a random generated number and asking the user to guess the number
